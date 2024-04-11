@@ -73,7 +73,7 @@ const toRemove = ["cat", "dog"];
 
 function filterOut(original,toRemove) {
 let newArray = [];
-console.log(original.length);
+
 if(original.length!=0){
 original.forEach(animal => {
   if(!toRemove.includes(animal))
@@ -88,7 +88,7 @@ return null;
 
 filterOut(original, toRemove)
 
-//console
+
 
 
 // Iteration 5 | Unique Arrays
@@ -106,7 +106,19 @@ const duplicateWords = [
   "bring"
 ];
 
-function uniquifyArray() {}
+function uniquifyArray(duplicateWords) {
+let result = [];
+for(let i = 0; i <duplicateWords.length;i++) {
+   result = duplicateWords.filter((x, i) => duplicateWords.indexOf(x) === i);
+  }
+  if(duplicateWords.length === 0 ){
+    return null
+   }
+
+return result;
+
+}
+uniquifyArray(duplicateWords);
 
 
 
