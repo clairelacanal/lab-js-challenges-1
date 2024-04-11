@@ -85,14 +85,7 @@ else{
 return null;
 }
 }
-<<<<<<< HEAD
-
-filterOut(original, toRemove)
-
-//console
-
-=======
->>>>>>> 4f88a558648fe2a943fc4db033d97974260a93e8
+//console.
 
 filterOut(original, toRemove)
 
