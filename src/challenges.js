@@ -85,7 +85,7 @@ else{
 return null;
 }
 }
-//console.
+//console.log
 
 filterOut(original, toRemove)
 
