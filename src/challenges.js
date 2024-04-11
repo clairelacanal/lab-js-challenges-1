@@ -80,7 +80,7 @@ original.forEach(animal => {
 }
 filterOut(original, toRemove)
 
-
+//console
 
 
 // Iteration 5 | Unique Arrays
