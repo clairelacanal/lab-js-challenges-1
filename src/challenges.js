@@ -70,7 +70,7 @@ multiplyBy(numbers, 2);
 // Iteration 4 | Filter Out
 const original = ["cat", "dog", "fish", "bird", "cat", "fish"];
 const toRemove = ["cat", "dog"];
-
+//
 function filterOut(original,toRemove) {
 let newArray = [];
 console.log(original.length);
@@ -85,13 +85,18 @@ else{
 return null;
 }
 }
+<<<<<<< HEAD
 
 filterOut(original, toRemove)
 
 //console
 
+=======
+>>>>>>> 4f88a558648fe2a943fc4db033d97974260a93e8
 
+filterOut(original, toRemove)
 
+//console
 
 
 // Iteration 5 | Unique Arrays
