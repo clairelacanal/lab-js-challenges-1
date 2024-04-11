@@ -73,14 +73,22 @@ const toRemove = ["cat", "dog"];
 
 function filterOut(original,toRemove) {
 let newArray = [];
+console.log(original.length);
+if(original.length!=0){
 original.forEach(animal => {
-  console.log(animal)
+  if(!toRemove.includes(animal))
+  newArray.push(animal)
 })
-
+return newArray;
 }
+else{
+return null;
+}
+}
+
 filterOut(original, toRemove)
 
-
+//console
 
 
 // Iteration 5 | Unique Arrays
