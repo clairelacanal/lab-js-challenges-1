@@ -70,7 +70,7 @@ multiplyBy(numbers, 2);
 // Iteration 4 | Filter Out
 const original = ["cat", "dog", "fish", "bird", "cat", "fish"];
 const toRemove = ["cat", "dog"];
-
+//
 function filterOut(original,toRemove) {
 let newArray = [];
 
@@ -85,6 +85,7 @@ else{
 return null;
 }
 }
+//console.log
 
 filterOut(original, toRemove)
 
